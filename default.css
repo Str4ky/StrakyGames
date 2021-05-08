@@ -188,6 +188,7 @@ html {
     text-decoration: none;
     border-radius: 8px;
     margin-left: 48px;
+    margin-top: 24px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -199,6 +200,7 @@ html {
     text-decoration: none;
     border-radius: 8px;
     margin-left: 48px;
+    margin-top: 24px;
     transform: scale(1.10);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
