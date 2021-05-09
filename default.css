@@ -7,10 +7,10 @@ html {
 }
 
 .head {
-	color: white;
-	text-decoration: none;
-	padding-left: 56px;
-	text-position: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 28px;
+    margin-right: 28px;
 }
 
 .presentation {
@@ -185,7 +185,6 @@ html {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     border: none;
-
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
@@ -208,12 +207,12 @@ html {
 }
 
 .underline {
-  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
-  text-underline-offset: 0.2em;
-  transition: text-decoration-color 300ms, text-underline-offset 300ms;
+    text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
 }
 
 .underline:hover {
-  text-decoration-color: rgba(255, 255, 255, 1);
-  text-underline-offset: 0.2em;
+    text-decoration-color: rgba(255, 255, 255, 1);
+    text-underline-offset: 0.2em;
 }
