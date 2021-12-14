@@ -248,7 +248,7 @@ html {
 .button8 {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #79c400;
+    background-color: #2b7d6c;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -264,7 +264,7 @@ html {
 .button8:hover {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #97df25;
+    background-color: #39917f;
     border: none;
     color: white;
     padding: 15px 32px;
