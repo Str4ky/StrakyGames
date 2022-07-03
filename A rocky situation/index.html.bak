@@ -7,8 +7,8 @@
         <meta content="StrakyGames Inc." property="og:title">
         <meta content="Studio indépendant
         fondé par $traker" property="og:description">
-        <meta content="http://games.straky.tk" property="og:url">
-        <meta content="http://games.straky.tk/logo.png" property="og:image">
+        <meta content="http://strakygames.tk" property="og:url">
+        <meta content="http://strakygames.tk/logo.png" property="og:image">
         <meta content="#6534c0" data-react-helmet="true" name="theme-color">
         <link rel=icon type=image/png href=../weblogo.png />
     </head>
@@ -95,7 +95,7 @@
             // Calls the runtime
             // First parameter : name of the canvas element
             // Second parameter : path to the cch file. Images and sounds must lay beside this file
-            new Runtime("MMFCanvas", "resources/Come Here Trashy Trash.cch");
+            new Runtime("MMFCanvas", "resources/A rocky situation.cch");
         }
         // RUNTIMESTARTEND
     </script>
