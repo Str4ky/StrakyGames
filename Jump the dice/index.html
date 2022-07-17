@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>StrakyGames Inc.</title>
         <meta content="StrakyGames Inc." property="og:title">
         <meta content="Studio indépendant
         fondé par $traker" property="og:description">
-        <meta content="http://strakygames.tk" property="og:url">
-        <meta content="http://strakygames.tk/logo.png" property="og:image">
+        <meta content="http://games.straky.tk" property="og:url">
+        <meta content="http://games.straky.tk/logo.png" property="og:image">
         <meta content="#6534c0" data-react-helmet="true" name="theme-color">
         <link rel=icon type=image/png href=../weblogo.png />
     </head>
@@ -41,13 +41,13 @@
   }
 </style>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 
-    <!-- Autorise le plein écran sur les mobiles iOS -->
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="HandheldFriendly" content="true" />
+  <!-- Autorise le plein écran sur les mobiles iOS -->
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="HandheldFriendly" content="true" />
 
 	<script>
 	   	// Detection des ancien navigateurs qui ne supportent pas l'element Canvas
@@ -61,7 +61,9 @@
   	<!-- EXTRASOURCES -->
 	<!-- Charge le code Javascript...-->
     <script src="src/Runtime.js"></script>
+
     <script>
+
 	    // Detecte si le fichier HTML est lance localement
 	    // Vous pouvez enlever ce code dans la version finale
 	    if (window.location.protocol == "file:")
@@ -80,24 +82,24 @@
 
 <body>
     <div style="display: inline-block; -webkit-user-select: none; text-align: left;">
-        <canvas id="MMFCanvas" width="720" height="360">
+        <canvas id="MMFCanvas" width="1280" height="720">
             Votre navigateur ne supporte pas l'element Canvas.
         </canvas>
     </div>
 
-
     <script>
         // RUNTIMESTART
-        // This is where the HTML5 runtime is actually started
+        // Endroit ou l'application est effectivement lancee
         window.addEventListener("load", windowLoaded, false);
         function windowLoaded()
         {
-            // Calls the runtime
-            // First parameter : name of the canvas element
-            // Second parameter : path to the cch file. Images and sounds must lay beside this file
-            new Runtime("MMFCanvas", "resources/Jump'n Time.cch");
+            // Appelle le runtime
+            // Premier parametre : le nom de l'element Canvas
+            // Second parametre : chemin vers le fichier CCH. Les sons et les images doivent se trouver a cote
+            new Runtime("MMFCanvas", "resources/Jump the dice.cch");
         }
         // RUNTIMESTARTEND
     </script>
+
 </body>
 </html>
