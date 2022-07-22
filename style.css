@@ -145,7 +145,7 @@ html {
 .button3 {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #00c2ff;
+    background-color: #0baddf;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -161,7 +161,7 @@ html {
 .button3:hover {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    background-color: #54c9ec;
+    background-color: #33bce6;
     border: none;
     color: white;
     padding: 15px 32px;
